@@ -1,0 +1,15 @@
+<ng-container *ngIf="mostrar">
+  <div class="modal">
+    <div *ngIf="products.length === 0">
+      <p>Carrinho esta vazio</p>
+    </div>
+    <div *ngIf="products.length > 0">
+      <h4>Itens no carrinho:</h4>
+      <p class="itens" *ngFor="let product of products">
+        <img class="image" [src]="product.image">
+        {{product.title}}
+      </p>
+    </div>
+  </div>
+  <div (click)="toggle()" class="overlay"></div>
+</ng-container>

@@ -1,0 +1,13 @@
+<div *ngIf="product" class="product-card">
+  <img class="image" [src]="product.image">
+  <div class="product-text">
+    <h2>{{ product.title }}</h2>
+    <p class="price">{{ product.price | currency:'BR' }}</p>
+    <p>{{ product.description }}</p>
+    <p class="category">{{ product.category }}</p>
+    <div class="buy-button">
+      <button class="back" (click)="back()">Voltar</button>
+      <button class="purchase" (click)="purchase(product)">Comprar</button>
+    </div>
+  </div>
+</div>

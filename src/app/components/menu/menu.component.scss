@@ -1,0 +1,19 @@
+.menu-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(198, 255, 255);
+
+  .icon-container {
+    align-items: center;
+    position: relative;
+    display: inline-block;
+
+    .badge {
+      border-radius: 50%;
+      position: absolute;
+      top: -20px;
+      right: -5px;
+      font-size: 10px;
+    }
+  }
+}

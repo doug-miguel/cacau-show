@@ -1,0 +1,42 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(241, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(241, 255, 255, 0.8596059113300493) 0%,
+    rgba(124, 244, 246, 1) 50%,
+    rgba(0, 232, 255, 1) 100%
+  );
+}
+
+/* Estilos para o card de login */
+mat-card {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+mat-card-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+/* Estilizar o botão de login */
+mat-card-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button[mat-button] {
+  background-color: #007bff;
+  color: white;
+}

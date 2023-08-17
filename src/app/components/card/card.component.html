@@ -1,0 +1,12 @@
+<div class="card" *ngFor="let product of dataSource">
+  <img class="image" [src]="product.image">
+  <div class="card-content">
+    <h2 class="card-title">{{product.title}}</h2>
+    <p class="card-category">{{product.category}}</p>
+    <p class="card-price">{{product.price | currency:'BR'}}</p>
+    <div class="buy-button">
+      <button class="details" (click)="detailsId(product.id)">Detalhes</button>
+      <button class="purchase" (click)="purchase(product)">Comprar</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+<mat-toolbar class="menu-container">
+  <div>Bem Vindo!</div>
+  <div class="icon-container" (click)="modal.toggle()">
+    <div class="badge">{{products.length}}</div>
+    <mat-icon>shopping_cart</mat-icon>
+  </div>
+</mat-toolbar>
+
+<app-modal #modal></app-modal>

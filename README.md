@@ -11,20 +11,20 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 git clone https://github.com/doug-miguel/cacau-show.git.
 ```
 
-### 🔧 Instalação
+### 🔧 Install
 
 ```
 Inside the Project folder run the command "npm install" to install the dependencies.
 ```
 
 
-### Rodar o Projeto
+### Run the Project
 
 ```
 After finishing the installation of the project, run the command "npm start" and use the project normally.
 ```
 
-### Login e Password
+### Login and Password
 
 ```
 Login: cacau

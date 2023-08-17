@@ -9,15 +9,12 @@ import { Observable, catchError, throwError } from 'rxjs';
 export class GetProductsService {
   constructor(private httpClient: HttpClient) { }
 
-  baseUrl: string = "https://fakestoreapi.cm";
+  baseUrl: string = "https://fakestoreapi.com";
 
   private handleError(error: HttpErrorResponse) {
-    let errorMessage = 'An error occurred';
+    let errorMessage = 'Um erro ocorreu';
     if (error.error instanceof ErrorEvent) {
-      // Client-side error
-      errorMessage = `Error: ${error.error.message}`;
     } else {
-      // Server-side error
       errorMessage = `Error Code: ${error.status}\nMessage: ${error.message}`;
     }
     console.error(errorMessage);

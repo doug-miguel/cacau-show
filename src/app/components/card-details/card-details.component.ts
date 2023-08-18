@@ -5,10 +5,10 @@ import { IProduct } from 'src/app/types/products';
 
 @Component({
   selector: 'app-card-dateils',
-  templateUrl: './card-dateils.component.html',
-  styleUrls: ['./card-dateils.component.scss']
+  templateUrl: './card-details.component.html',
+  styleUrls: ['./card-details.component.scss']
 })
-export class CardDateilsComponent {
+export class CardDetailsComponent {
   @Input() product!: IProduct
 
   constructor(private router: Router, private cartService: CartService) { }

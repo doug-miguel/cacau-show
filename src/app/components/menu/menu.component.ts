@@ -10,9 +10,9 @@ import { IProduct } from 'src/app/types/products';
 })
 export class MenuComponent implements OnInit {
   constructor(private cartService: CartService) { }
-  products: IProduct[] = []
+  products: IProduct[] = [];
   productSubscription: Subscription | undefined;
-  name!: string | null
+  name!: string | null;
 
 
   ngOnInit() {

@@ -5,7 +5,7 @@ export interface IProduct {
   description: string;
   category: Category;
   image: string;
-  rating: Rating;
+  rating: IRating;
 }
 
 export enum Category {
@@ -15,7 +15,7 @@ export enum Category {
   WomenSClothing = "women's clothing",
 }
 
-export interface Rating {
+export interface IRating {
   rate: number;
   count: number;
 }

@@ -24,7 +24,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { HttpClientModule } from '@angular/common/http';
-import { CardDateilsComponent } from './components/card-dateils/card-dateils.component';
+import { CardDetailsComponent } from './components/card-details/card-details.component';
 import { ModalComponent } from './components/modal/modal.component';
 
 @NgModule({
@@ -36,7 +36,7 @@ import { ModalComponent } from './components/modal/modal.component';
     ProductsComponent,
     ProductComponent,
     DetailComponent,
-    CardDateilsComponent,
+    CardDetailsComponent,
     ModalComponent
   ],
   imports: [
